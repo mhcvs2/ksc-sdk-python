@@ -1,0 +1,24 @@
+---
+version: '2.0'
+metadata:
+  apiVersion: '2016-03-04'
+  endpointPrefix: ebs
+  jsonVersion: '1.1'
+  serviceFullName: ebs Service
+  signatureVersion: v4
+  targetPrefix: ebs
+  protocol: query-json
+
+operations:
+  DescribeVolumes:
+    name: DescribeVolumes
+    http:
+      method: GET
+  AttachVolume:
+    name: AttachVolume
+    http:
+      method: GET
+  DetachVolume:
+    name: DetachVolume
+    http:
+      method: GET
